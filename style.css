@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-main {
+    background-color: aqua;
+    padding: 2.5vh;
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-between;
+}
+.div-main a  {
+
+    align-self: auto;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+.div-main {
+    justify-content: flex-end;
+}
+.div-main a:hover {
+text-decoration: underline;
+background-color: rgb(50, 196, 166, .6);
+border-radius: 50px;
+margin: 10;
+padding: 10;
+}
+
+.input {
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: rgb(211, 243, 243);
+}
+.scearch1 {
+    padding: 6px;
+    background-color: rgb(170, 226, 226);
+    border-radius: 10px;
+}
+.div-img {
+    display: flex;
+    padding: 20px;
+    background-image: url(bg\ 1.webp);
+    background-size: cover;
+}
+h1 {
+    padding: 20px;
+    padding-top: 100px;
+    background-image: url(bg\ 2.webp);
+    padding-bottom: 100px;
+    background-size: cover;
+}
+
+   
+h1 span {
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.div-img .img img{
+    padding: 50px;
+   height: 300px;
+   border-radius: 50%;
+}
